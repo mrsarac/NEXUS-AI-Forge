@@ -1,0 +1,34 @@
+# Rust
+/target/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env
+
+# Build artifacts
+*.log
+*.tmp
+
+# Test coverage
+*.profraw
+*.profdata
+coverage/
+
+# Simulation results (large files)
+/results/
+/simulations/
+
+# Local config (user-specific)
+.nexus/
